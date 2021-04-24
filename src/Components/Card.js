@@ -1,12 +1,12 @@
 import React from 'react'
 import Chart from './Chart'
 
-const Card = ({dropDown,data}) => {
+const Card = ({dropDown,data,style}) => {
     return (
-        <div style={{height: 260,
-            width: 433,backgroundColor:'white',
+        <div style={{height: style.height,
+            width: style.width,backgroundColor:'white',
             }}>
-            <Chart dropDown={dropDown} data={data}/>
+            <Chart dropDown={dropDown} data={data} />
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React ,{useEffect,useState,useContext}from 'react'
 import { UserContext } from '../App'
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
-const ByDevices = () => {
+const ByDevices = ({style}) => {
     const { state, dispatch } = useContext(UserContext)
     const [value,setValue]=useState([])
     useEffect(()=>{
@@ -16,8 +16,8 @@ const ByDevices = () => {
     },[state])
     return (
         <div className="container" style={{
-            height: 260,
-            width: 433, backgroundColor: 'white'
+            height: style.height,
+            width: style.width, backgroundColor: 'white'
                 }}>
             <h2 style={{textAlign:'center'}}>By Devices</h2>
 

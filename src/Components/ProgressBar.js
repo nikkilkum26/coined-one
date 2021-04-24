@@ -2,10 +2,10 @@ import React from 'react'
 import { Progress } from 'semantic-ui-react'
 import Button from '@material-ui/core/Button';
 
-const ProgressExampleColor = () => (
+const ProgressExampleColor = ({style}) => (
   <div style={{
-    height: 260,
-    width: 433, backgroundColor: 'white'
+    height: style.height,
+    width: style.width, backgroundColor: 'white'
         }}>
     <h2 style={{ textAlign: 'center', fontWeight: "700" }}>Free-time Usage</h2>
     <div className='container' style={{ marginLeft: '50px', marginTop: '14px' }}>

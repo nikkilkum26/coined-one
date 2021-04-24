@@ -21,6 +21,10 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SpacingGrid({dropDownData,data}) {
   const [spacing, setSpacing] = useState(1);
+  const [styles,setStyles]=useState({
+    height: 260,
+    width: 420
+  })
   const classes = useStyles();
 console.log(dropDownData)
   return (
@@ -29,14 +33,14 @@ console.log(dropDownData)
         <Grid container justify="center" spacing={spacing}>
        
             <Grid  item >
-                <Card dropDown={dropDownData} data={data}/>
+                <Card dropDown={dropDownData} data={data} style={styles}/>
             </Grid>
             <Grid  item>
-           <ProgressBar/>
+           <ProgressBar  style={styles}/>
             
             </Grid>
             <Grid  item>
-               <ByDevices/>
+               <ByDevices  style={styles}/>
             </Grid>
           {/* ))} */}
         </Grid>
