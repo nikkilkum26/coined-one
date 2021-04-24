@@ -1,0 +1,18 @@
+.activities{
+    margin: 30px;
+    padding:30px
+}
+.firstblock{
+   margin-top: 20px;
+    height: 50px;
+    background-color: white;
+}
+.MuiSelect-select.MuiSelect-select {
+ 
+    margin-top: 6px;
+}
+.cardplacer{
+    margin-top: 10px;
+    display:inline-flex;
+    
+}

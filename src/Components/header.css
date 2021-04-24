@@ -1,0 +1,14 @@
+.MuiToolbar-root, .MuiToolbar-regular, .MuiToolbar-gutters{
+/* background: -webkit-linear-gradient(90.96deg, rgba(48, 118, 222, 0) 1.05%,rgb(252, 235, 214)99.89%);   */
+/* background: linear-gradient(90.96deg, rgba(48, 118, 222, 0) 1.05%,rgb(252, 235, 214)99.89%);  */
+/* opacity: 0.7; */
+/* background: linear-gradient(90.96deg, rgba(48, 118, 222, 0.4) 1.05%, rgba(241, 108, 11, 0.13) 99.89%); */
+background: linear-gradient(to Right, rgba(198, 216, 243, 0.4) 1.05%, rgb(255, 225, 189) 99.89%);
+
+}
+#name{
+    margin-left: 10px;
+    color:rgb(10, 10, 29);
+    font-size:20px;
+    font-weight: 700;
+}
